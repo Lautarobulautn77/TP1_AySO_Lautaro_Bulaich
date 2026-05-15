@@ -1,0 +1,58 @@
+cd
+mkdir repogit 
+cd repogit
+git clone https://github.com/Lautarobulautn77/TP1_AySO_Lautaro_Bulaich.git
+cd TP1_AySO_
+cd TP1_AySO_Lautaro_Bulaich
+pwd
+ls -l
+cat /etc/os-release
+man grep 
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i Home_url /etc/os-release 
+grep -i Home_url /etc/os-release > datos_url.txt 
+whoami 
+echo “Usuario=$(osboxes)” > datos_usuario.txt
+echo “Usuario=$(whoami)” > datos_usuario.txt
+git add .
+git config --global user.email "lauti.bulaich@gmail.com"
+git config --global user.name "osboxes"
+git commit -m "ADD: agregado 1er
+ejercicio sobre datos_usuario.txt"
+git status
+git push
+Grep
+grep
+grep "model name" /proc/cpuinfo | head -n1 >>
+datos_usuario.txt
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat <<EOF >> README.md
+Alumno: Lautaro Bulaich
+Division: 114
+Turno: Mañana
+EOF
+
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+git add .
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+git pull origin main
+git config pull.rebase false
+git pull origin main
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+nano datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+cat <<EOF >> script_dir.sh
+#!/bin/bash
+mkdir -p ~/materia{1,2}/uni{1,2,3}
+EOF
+
+history -a 
