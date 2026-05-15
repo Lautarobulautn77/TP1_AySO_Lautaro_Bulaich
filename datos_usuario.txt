@@ -1,6 +1,6 @@
 HEAD
 “Usuario=osboxes”
-model name	: Pentium(R) Dual-Core  CPU      E5500  @ 2.80GHz
+model name	: Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz
 =======
 “Usuario=osboxes”
 4bf96e113dfa07ed8e8d6b35e66a0ca8a1078a45
